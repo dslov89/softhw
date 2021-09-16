@@ -1,0 +1,260 @@
+ cd soft
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+user.name=dslov89
+user.email=si2238@naver.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft (master)
+$ cd
+
+노세인@DESKTOP-5VI817P MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Templates@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled2.ipynb
+ Videos/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ soft/
+'시작 메뉴'@
+
+노세인@DESKTOP-5VI817P MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/노세인/.git/
+
+노세인@DESKTOP-5VI817P MINGW64 ~ (master)
+$ git add .
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'AppData/Local/ElevatedDiagnostics/': Permission denied
+warning: could not open directory 'AppData/Local/History/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Low/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/Temporary Internet Files/': Permission denied
+warning: could not open directory 'AppData/Local/Temporary Internet Files/': Permission denied
+warning: could not open directory 'AppData/Roaming/Microsoft/Windows/Start Menu/프로그램/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+warning: could not open directory '시작 메뉴/': Permission denied
+warning: LF will be replaced by CRLF in .bash_history.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Untitled-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Untitled1-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Untitled2-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipython/profile_default/startup/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .lesshst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .tooling/gradle/versions.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .viminfo.
+The file will have its original line endings in your working directory
+error: open("AppData/Local/Comms/UnistoreDB/USS.jtx"): Permission denied
+error: unable to index file 'AppData/Local/Comms/UnistoreDB/USS.jtx'
+fatal: adding files failed
+
+노세인@DESKTOP-5VI817P MINGW64 ~ (master)
+$ cd
+
+노세인@DESKTOP-5VI817P MINGW64 ~ (master)
+$ cd soft
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft (master)
+$ mkdir hw
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft (master)
+$ cd hw
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (master)
+$ git init
+Initialized empty Git repository in C:/Users/노세인/soft/hw/.git/
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (master)
+$ vi hihi.txt
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (master)
+$ git add hihi.txt
+warning: LF will be replaced by CRLF in hihi.txt.
+The file will have its original line endings in your working directory
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (master)
+$ git commit -m "first commit"
+[master (root-commit) a6345fe] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hihi.txt
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (master)
+$ git branch -M main
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git remote add origin https://github.com/dslov89/softhw.git
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git push -u origin main
+fatal: 응답 상태 코드가 성공을 나타내지 않습니다. 401(Unauthorized).
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 208 bytes | 208.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dslov89/softhw.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git add .
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git push -m "2"
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git push
+Everything up-to-date
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git push -u origin main
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git remote add origin https://github.com/dslov89/softhw.git
+error: remote origin already exists.
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git branch -M main
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git push -u origin main
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ vi hwhagi.txt
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git add .
+warning: LF will be replaced by CRLF in hwhagi.txt.
+The file will have its original line endings in your working directory
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git commit -m "hihihihi"
+[main 558a9fe] hihihihi
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hwhagi.txt
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dslov89/softhw.git
+   a6345fe..558a9fe  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
+$
+
