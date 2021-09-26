@@ -1,1 +1,2 @@
-idjijiji
+main에서 문서작성
+branch 1 에서 내용 작성
