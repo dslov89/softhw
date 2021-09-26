@@ -258,3 +258,4 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 노세인@DESKTOP-5VI817P MINGW64 ~/soft/hw (main)
 $
 
+hihi
